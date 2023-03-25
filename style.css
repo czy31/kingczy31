@@ -1,0 +1,81 @@
+ul{
+
+
+   list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size:x-large;
+      font-weight: 90;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; 
+}
+ li{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height: auto;
+    margin-right: 1px;
+    margin-left: -5px;
+}
+
+a{
+   display: block;
+    width: 200px ;
+}
+
+
+nav:hover{
+       transition: .5s ;
+
+     background-color: rgba(35, 213, 236, 0.483);
+}
+
+nav ul li a{
+    
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+}
+
+a.active, a:hover{
+     background: #f9b;
+     transition: .8s ;
+}
+
+  .navii{
+
+    
+    display: block;
+    width: px;
+    float: left;
+    
+    
+    
+  }
+.IMAGES{
+     
+    margin-left: -510PX;
+    
+    
+}
+.ABOUT{
+
+    padding-left: 0%;
+    display: inline-block;
+    width: -200PX ;
+    margin-top: 750PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.WHYHIREME{
+    margin-left: 8%;
+    position: absolute;
+    display: block;
+    width: -230PX ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.ABOUT, a:hover{
+
+    background-color: rgb(255, 243, 15);
+    transition: .8s;
+    border-radius: 50%;
+}
